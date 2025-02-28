@@ -1,0 +1,164 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;700&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #222;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.club-logo {
+  width: 40px; /* Adjust size as needed */
+  height: 30px;
+  margin-right: 10px; /* Space between logo and text */
+ /* Optional: Makes it round */
+}
+
+.nav-links a {
+  color: #66c3dd;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px; /* Reduced padding */
+  margin-top: -10px; /* Moves title closer to navbar */
+}
+
+.header-text {
+  width: 60%;
+  margin-top: -50px;
+}
+
+.header h1 {
+  color: #00FFFF;
+  font-size: 60px;
+  text-align: left;
+  margin-top: -100px; /* Removes extra space */
+  margin-bottom: 20px; /* Increased space between title and description */
+}
+
+.description {
+  text-align: left;
+  line-height: 1.9;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px; /* Reduces extra spacing */
+  
+}
+
+/* Images */
+.images {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.images img {
+  width: 80%;
+  height: 80%;
+  border: 2px solid #00FFFF;
+  border-radius: 5px;
+}
+
+/* Events Section */
+.events {
+  text-align: center;
+  margin-top: 50px;
+  padding: 60px;
+}
+
+.events h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Events Grid */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 events per row */
+  gap: 40px; /* Increased spacing */
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Event Card - Increased Size */
+.event-card {
+  background: #111;
+  border: 2px solid #00FFFF;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 250px; /* Square size */
+  height: 250px; /* Square size */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 255, 255, 0.5);
+}
+
+/* Register Button */
+.register-button {
+  background-color: #00FFFF;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.register-button:hover {
+  background-color: #4a9cb1;
+}
