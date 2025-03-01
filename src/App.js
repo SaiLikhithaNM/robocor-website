@@ -67,11 +67,10 @@ function App() {
             <img src="/corsit logo.png" alt="Club Logo" className="club-logo" />
                 
           </div>
-          <div className="logo">ROBOCOR'2025</div>
+          <div className="logo">ROBOCOR' 2025</div>
           <div className="nav-links">
             <Link to="/">Home</Link>
              <a href="#events">Events</a> 
-            
              <a href="#about">About</a> 
              <a href="/rulebook.pdf" download="ROBOCOR_Rulebook.pdf">Rulebook</a>
              <a href="#sponsors">Sponsors</a> 
